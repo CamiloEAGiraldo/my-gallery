@@ -1,0 +1,71 @@
+/* ------ GENERAL TAGS ------ */
+footer{
+    text-align: center;
+    margin: 0% auto;
+}
+/* --- END GENERAL TAGS ----- */
+/* ------ PROFILE ------ */
+#profile{
+    width: 100%;
+}
+#profile img{
+    display: block;
+    width: 30%;
+    border-radius: 28%;
+    margin: 10% auto;
+}
+#profile-name,
+#profile-location{
+    text-align: center;
+}
+#profile-location{
+    color: #A9A9A9;
+}
+#profile-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0% 10%;
+}
+.profile-card{
+    text-align: center;
+    border-radius: 30%;
+    background-color: #E5E5E5;
+    margin: 5%;
+}
+.profile-card p{
+    margin: 5%
+}
+.profile-card-text{
+    color: #BDBDBD;
+}
+/* ------END PROFILE ------ */
+/* ------ GALLERY ------ */
+#gallery{
+    width: 90%;
+    margin: 10% 5%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+.gallery-img{
+    position: relative;
+    width: auto;
+    height: 5rem;
+    border-radius: 10%;
+    flex-grow: 1;
+}
+#gallery-img4{
+    flex-grow: 1;
+    width: 30%;
+    height: 10.5rem;
+}
+#gallery-img5,
+#gallery-img6{
+    flex-grow: 0;
+    justify-content: left;
+    transform: translateY(-110%);
+}
+#gallery-img6{
+    margin-left: 1.5%;
+}
+/* ------END GALLERY ------ */
